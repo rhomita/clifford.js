@@ -7,7 +7,8 @@
   "type": "module",
   "scripts": {
     "build": "tsc && rollup -c",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,11 @@
   "homepage": "https://github.com/rhomita/clifford.js#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.0.0",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4",
     "rollup": "^3.29.0",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.0.0"
   },
   "dependencies": {
