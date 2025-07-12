@@ -1,0 +1,38 @@
+{
+  "name": "clifford.js",
+  "version": "1.0.0",
+  "description": "A truly unnecessary JavaScript library for doing Clifford things.",
+  "main": "dist/clifford.js",
+  "types": "dist/types/clifford.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rhomita/clifford.js.git"
+  },
+  "keywords": [
+    "clifford",
+    "absurd",
+    "fun",
+    "fog",
+    "entropy",
+    "weird"
+  ],
+  "author": "Rhomita",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhomita/clifford.js/issues"
+  },
+  "homepage": "https://github.com/rhomita/clifford.js#readme",
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "rollup": "^3.29.0",
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  }
+}
